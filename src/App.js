@@ -4,7 +4,7 @@ import Income from "./Pages/Income";
 import Expenses from "./Pages/Expenses";
 import IncomeExpenses from "./Pages/IncomeExpenses";
 import Dashboard from "./Pages/Dashboard";
-import styles from "./App.css";
+import "./App.css";
 
 function App() {
   return (
