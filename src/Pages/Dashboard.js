@@ -70,9 +70,9 @@ function Dashboard() {
         <div>
           <h3> Report</h3>
           <div>
-            <p>Total Income: ${report.totalIncome}</p>
-            <p>Total Expenses: ${report.totalExpenses}</p>
-            <p>Savings: ${report.savings}</p>
+            <p>Total Income: &#8377;{report.totalIncome}</p>
+            <p>Total Expenses: &#8377;{report.totalExpenses}</p>
+            <p>Savings: &#8377;{report.savings}</p>
           </div>
         </div>
       )}
@@ -81,11 +81,11 @@ function Dashboard() {
         reportType === "expenseBreakdown" && (
           <div>
             <h4>Expense Breakdown:</h4>
-            <p>Total Expenses: ${report.totalExpenses}</p>
+            <p>Total Expenses: &#8377;{report.totalExpenses}</p>
             <ul>
               {Object.keys(report.expenseBreakdown).map((category, index) => (
                 <li key={index}>
-                  {category}: ${report.expenseBreakdown[category]}
+                  {category}: &#8377;{report.expenseBreakdown[category]}
                 </li>
               ))}
             </ul>
