@@ -15,7 +15,9 @@ const Income = () => {
       <ul>
         {income.map((trxn, index) => (
           <li key={index}>
-            {trxn.description}: &#8377;{trxn.amount}
+            {trxn.description} (
+            {trxn.category ? trxn.category : "Category was not updated"}):
+            &#8377;{trxn.amount}
           </li>
         ))}
       </ul>
