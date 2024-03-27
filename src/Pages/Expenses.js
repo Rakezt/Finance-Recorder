@@ -17,7 +17,7 @@ const Expenses = () => {
       <ul>
         {expenses.map((trxn, index) => (
           <li key={index}>
-            {trxn.description}{" "}
+            {trxn.description} (
             {trxn.category ? trxn.category : "Category was not updated"}) :
             &#8377;{trxn.amount}
           </li>
