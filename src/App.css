@@ -1,0 +1,55 @@
+/* App.css */
+
+/* Style for the App component */
+.App {
+  text-align: left; /* Center text */
+  margin: auto; /* Center horizontally */
+}
+
+/* Style for the navigation bar */
+nav {
+  background-color: #333; /* Background color */
+  padding: 10px; /* Padding */
+  display: flex; /* Use flexbox */
+  justify-content: space-between; /* Align items with space between */
+  align-items: left; /* Center items vertically */
+}
+
+/* Style for the navigation bar links */
+nav ul {
+  list-style-type: none; /* Remove default list styles */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use flexbox */
+}
+
+nav ul li {
+  margin-right: 20px; /* Margin between list items */
+}
+
+nav ul li a {
+  color: #fff; /* Link text color */
+  text-decoration: none; /* Remove default underline */
+  font-weight: bold; /* Bold font */
+}
+
+nav ul li a:hover {
+  color: #ffcc00; /* Change text color on hover */
+}
+.element {
+  padding-left: 10px;
+}
+
+button {
+  background-color: black;
+  color: azure;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 2px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+button:hover {
+  color: yellow;
+}
